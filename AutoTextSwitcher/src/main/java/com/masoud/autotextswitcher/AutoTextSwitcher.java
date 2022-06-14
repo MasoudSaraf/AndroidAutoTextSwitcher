@@ -56,11 +56,6 @@ public class AutoTextSwitcher extends TextSwitcher
             startTextAnimation();
     }
 
-    private void setupTimer()
-    {
-        animationTimer = new Timer();
-    }
-
     public void startTextAnimation()
     {
         if (isTextAnimationIsRunning())
@@ -70,7 +65,7 @@ public class AutoTextSwitcher extends TextSwitcher
         {
             if (textArray.size() > 1)
             {
-                setupTimer();
+                animationTimer = new Timer();
                 animationTimer.schedule(getAnimationTask(), 350, changeAnimationTime);
             }
             else
