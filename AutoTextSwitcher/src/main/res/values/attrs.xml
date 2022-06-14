@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoTextSwitcher">
+        <!-- array of strings -->
+        <attr name="textArray" format="reference" />
+        <!-- time in millisecond -->
+        <attr name="changeAnimationTime" format="integer" />
+        <!-- boolean value indicates auto start changing text or not -->
+        <attr name="autoStart" format="boolean" />
+    </declare-styleable>
+</resources>
