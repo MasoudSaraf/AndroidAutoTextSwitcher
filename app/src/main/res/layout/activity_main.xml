@@ -6,13 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <com.masoud.autotextswitcher.AutoTextSwitcher
+        android:id="@+id/textSwitcher"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:inAnimation="@anim/text_in_animation"
+        android:outAnimation="@anim/text_out_animation"
+        app:autoStart="true"
+        app:changeAnimationTime="3000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:textArray="@array/info_array" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

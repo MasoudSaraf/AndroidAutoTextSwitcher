@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AutoTextSwitcherLibrary</string>
+
+    <string name="click_mic">Click mic icon to start recognize</string>
+    <string name="click_flash">Click flash icon to start Float-Mode</string>
+
+    <string-array name="info_array">
+        <item>@string/click_mic</item>
+        <item>@string/click_flash</item>
+    </string-array>
 </resources>
