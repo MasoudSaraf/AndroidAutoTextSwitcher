@@ -1,5 +1,6 @@
 # AutoTextSwitcher
-[![](https://jitpack.io/v/masoudsaraf/androidautotextswitcher.svg)](https://jitpack.io/#masoudsaraf/androidautotextswitcher) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
+[![](https://jitpack.io/v/masoudsaraf/androidautotextswitcher.svg)](https://jitpack.io/#masoudsaraf/androidautotextswitcher)
+[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 
 This is an Android project allowing to auto change text in specific period of time with your chosen animation.
 
