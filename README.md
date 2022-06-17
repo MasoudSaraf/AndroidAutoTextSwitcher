@@ -33,7 +33,7 @@ dependencyResolutionManagement {
 ```
 - And then add dependency to your project in the `build.gradle` file at app level:
 ```groovy
-implementation 'com.github.masoudsaraf:androidautotextswitcher:1.0.1'
+implementation 'com.github.masoudsaraf:androidautotextswitcher:1.0.2'
 ```
 
 ## How to use in XML
