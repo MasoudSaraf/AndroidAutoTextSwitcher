@@ -7,6 +7,7 @@ import android.util.AttributeSet;
 import android.widget.TextSwitcher;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Arrays;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -17,7 +18,7 @@ public class AutoTextSwitcher extends TextSwitcher
     private static final int DEFAULT_ANIMATION_TIME = 1000; // Milliseconds
 
     private int index = 0;
-    private ArrayList<CharSequence> textArray;
+    private List<CharSequence> textArray;
     private long changeAnimationTime;
 
     private Handler handler;
@@ -118,7 +119,7 @@ public class AutoTextSwitcher extends TextSwitcher
     }
 
 
-    public void setTextArray(ArrayList<CharSequence> textArray)
+    public void setTextArray(List<CharSequence> textArray)
     {
         if (isTextAnimationIsRunning())
             stopTextAnimation();
