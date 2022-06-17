@@ -9,25 +9,25 @@ This is an Android project allowing to auto change text in specific period of ti
 
 ```groovy
 allprojects {
-  repositories {
-  ....
-  maven { url 'https://jitpack.io' }
-  }
+    repositories {
+        ....
+        maven { url 'https://jitpack.io' }
+    }
 }
 ```
 Or with newest Gradle version (+7.2.0) do like this in `settings.gradle` file:
 ```groovy
 pluginManagement {
-  repositories {
-    ....
-  }
+    repositories {
+        ....
+    }
 }
 dependencyResolutionManagement {
-  ....
-  repositories {
     ....
-    maven { url 'https://jitpack.io' }
-  }
+    repositories {
+        ....
+        maven { url 'https://jitpack.io' }
+    }
 }
 ....
 ```
