@@ -16,7 +16,7 @@ public class AutoTextSwitcher extends TextSwitcher
 {
     private static final int DEFAULT_ANIMATION_TIME = 1000; // Milliseconds
 
-    int index = 0;
+    private int index = 0;
     private ArrayList<CharSequence> textArray;
     private long changeAnimationTime;
 
