@@ -43,7 +43,7 @@ You can set textArray from XML or java code. In XML easiest way is add your text
 <resources>
     ....
     <string name="first_text">Show awesome first text</string>
-    <string name="sec## Headingond_text">Show awesome second text</string>
+    <string name="second_text">Show awesome second text</string>
 
     <string-array name="textArray">
         <item>@string/first_text</item>
